@@ -1,0 +1,101 @@
+footer {
+    height: 34rem;
+}
+
+.leftLetter {
+    text-align: center;
+    width: 23rem;
+    height: 111%;
+    padding: 81px 0 26px 0;
+    background-color: #333333;
+}
+
+.letterInput {
+    width: 16rem;
+}
+
+.letterInput button {
+    width: 100%;
+
+}
+
+.social {
+    width: 63%;
+}
+
+.accounts {
+    height: 32px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 9px;
+}
+.fb {
+    background-color: #3B5998; /* Initial background color */
+    color: #FFFFFF; /* Initial icon color */
+    cursor: pointer;
+}
+.fb i {
+    color: #FFFFFF; /* Inherits color from the parent element */
+}
+
+.fb:hover {
+    background-color: #FFFFFF; /* Background changes to white on hover */
+    color: #3B5998; /* Icon color changes to blue on hover */
+}
+.fb:hover i {
+    color: #3B5998; /* Ensures icon color stays white on hover */
+}
+
+.tw {
+    background-color: #1D9BF0; /* Initial background color */
+    color: #FFFFFF; /* Initial icon color */
+    cursor: pointer;
+}
+.tw i {
+    color: #FFFFFF; /* Inherits color from the parent element */
+}
+
+.tw:hover {
+    background-color: #FFFFFF; /* Background changes to white on hover */
+    color: #1D9BF0; /* Icon color changes to blue on hover */
+}
+.tw:hover i {
+    color: #1D9BF0 /* Ensures icon color stays white on hover */
+}
+
+.lk {
+    background-color: #0077B5; /* Initial background color */
+    color: #FFFFFF; /* Initial icon color */
+    cursor: pointer;
+}
+.lk i {
+    color: #FFFFFF; /* Inherits color from the parent element */
+}
+
+.lk:hover {
+    background-color: #FFFFFF; /* Background changes to white on hover */
+    color: #0077B5; /* Icon color changes to blue on hover */
+}
+.lk:hover i {
+    color: #0077B5 /* Ensures icon color stays white on hover */
+}
+
+.ins {
+    background-color: #FD5949; /* Initial background color */
+    color: #FFFFFF; /* Initial icon color */
+    cursor: pointer;
+}
+.ins i {
+    color: #FFFFFF; /* Inherits color from the parent element */
+}
+
+.ins:hover {
+    background-color: #FFFFFF; /* Background changes to white on hover */
+    color: #FD5949; /* Icon color changes to blue on hover */
+}
+.ins:hover i {
+    color: #FD5949; /* Ensures icon color stays white on hover */
+}

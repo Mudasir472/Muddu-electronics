@@ -1,0 +1,39 @@
+.catImg img{
+    height: 12rem;
+    width: 13rem;
+    margin-left: -70px;
+}
+.catData{
+    width: 32%;
+    cursor: pointer;
+    opacity: 1;
+}
+.catData:hover{
+    opacity: 0.8;
+}
+.catDataMain{
+    height: 18rem;
+    background-color: #f9f9f9;
+}
+.catHead{
+    height: 3rem;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    background-color: #254370;
+    color: white;
+}
+.homeCata{
+    margin-top: 59px;
+}
+.catList{
+    padding-left: 14px;
+    line-height: 3;
+}
+.catList ul li{
+    list-style-type: circle;
+    
+}
+.cataMain{
+    margin-bottom: 4rem;
+}

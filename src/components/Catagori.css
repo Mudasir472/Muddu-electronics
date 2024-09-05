@@ -1,0 +1,287 @@
+.head {
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.row {
+    --bs-gutter-x: none
+}
+
+.buttons {
+    margin-bottom: 6rem;
+}
+
+.buttons button {
+    border: solid 1px grey;
+    margin-right: 15px;
+    color: #6f6f6f;
+    height: 44px;
+}
+
+.cartBtns {
+    width: 12rem;
+    margin-top: 4rem;
+}
+
+
+.crt button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.4rem;
+}
+
+.load{
+    height: 1.4rem;
+}
+
+ .crt,
+.crt {
+    background-color: #254370;
+    color: white;
+}
+
+.cartBtns .view {
+    background-color: #f6c947;
+    color: black;
+}
+/* for btn loading */
+
+.btn.crt.loading {
+    background-color: #254370; /* Same as hover background color */
+    color: #ffffff; /* Keep the text color consistent */
+     pointer-events: none;   /* Prevent any interaction during loading */
+}
+.btn.crt:hover {
+    background-color: #254370; /* Background color on hover */
+    color: #ffffff; /* Text color on hover */
+}
+.btn.crt.loading:hover {
+    background-color: #254370; /* Keep the background consistent */
+    color: #ffffff; /* Ensure text color stays white */
+}
+
+.cartBtns .crt:hover {
+    background-color: #f6c947;
+    color: black;
+}
+
+.cartBtn .crt:hover {
+    background-color: #f6c947;
+    color: black;
+}
+
+.cartBtns .view:hover {
+    background-color: #254370;
+    color: white;
+}
+
+.modal-body img {
+    height: 21rem;
+    width: 25rem;
+}
+
+/* transition  */
+.netMain img {
+    width: 25rem;
+}
+
+.network {
+    height: 43rem;
+}
+
+/* SupportCards */
+
+.supportCards {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    height: 16rem;
+    width: 18rem;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.support {
+    height: 30rem;
+}
+
+.supportCards:hover {
+    box-shadow: 0 3px 6px #b9b9b9;
+}
+
+.ico i {
+    color: #f6c947;
+    cursor: pointer;
+}
+
+.ico i:hover {
+    color: #254370;
+}
+
+/* Deal of day */
+.dod {
+    height: 40rem;
+}
+
+.dodmain {
+    height: 25rem;
+}
+
+.dodDesc {
+    text-align: center;
+}
+
+.time {
+    width: 30rem;
+    text-align: center;
+}
+
+.timeUptoact {
+    background-color: white;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 17px;
+    font-weight: 600;
+}
+
+.timeUpto p {
+    color: #6f6f6f;
+}
+
+.timeUptoact b {
+    color: #254370;
+    font-weight: bold;
+}
+
+/* DODitems */
+.DODitem {
+    width: 45%;
+}
+
+.sliderData {
+    width: 100%;
+}
+
+/* Slider */
+
+
+.size img {
+    height: 12rem;
+    width: 14rem;
+}
+
+/* Cart Products */
+
+.productImg img {
+    height: 7rem;
+    width: 8rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+
+}
+
+.cartLeft {
+    width: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 32px;
+    margin-right: 30px;
+}
+
+.cartRight {
+    width: 28%;
+    height: 30rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.productQnty {
+    width: 10rem;
+}
+
+.productQnty button {
+    background-color: #254370;
+    color: white;
+    height: 41px;
+    width: 40px;
+}
+
+.productQnty button:hover {
+    background-color: #f6c947;
+
+}
+
+.imgDesc {
+    width: 19rem;
+}
+
+.cartProduct {
+    margin-bottom: 17px;
+    width: 48rem;
+}
+
+.productDesc p {
+    width: 159px;
+}
+
+.emptyCart {
+    text-align: center;
+}
+
+.emptyCart img {
+    height: 15rem;
+    width: 24rem;
+}
+
+.emptyCart p {
+    width: 68%;
+}
+
+.clear {
+    cursor: pointer;
+    text-align: end;
+    text-decoration: underline;
+    color: #6f6f6f;
+    width: 92%;
+}
+
+.cartData {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.cartRight {
+    text-align: center;
+}
+
+.zipcode input {
+    padding: 6px;
+    border-radius: 4px;
+    border: solid 0.1px;
+    outline: none;
+}
+
+.selectCountry select {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 10px;
+    width: 15rem;
+    outline: none;
+    height: 3rem;
+}
+
+.form button {
+    background-color: #254370;
+    color: white;
+}
+
+.form button:hover {
+    background-color: #f6c947;
+
+}

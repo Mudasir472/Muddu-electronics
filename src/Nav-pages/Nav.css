@@ -1,0 +1,22 @@
+
+.blogimages img{
+    /* font-size: larger; */
+    height: 24rem;
+}
+.blogBody{
+    height: 14rem;
+}
+.blogBody p{
+    text-align: center;
+}
+.blogBody button,.blogBody button:hover{
+    border: 1px solid ;
+    height: 123px;
+}
+.form button{
+    background-color: #254370;
+    color: white;
+}
+.form button:hover{
+    background-color: #F6C947;
+}

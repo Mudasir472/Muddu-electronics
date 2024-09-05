@@ -1,0 +1,201 @@
+
+  
+
+  /* =================.. */
+
+  .carousel {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0; /* Removed negative margin to avoid shifting */
+  }
+  
+  .img-Carousel {
+    width: 100%;
+  }
+  
+  .home-carousel .slick-prev,
+  .home-carousel .slick-next {
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .home-carousel .slick-prev {
+    left: 14px;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+  }
+  
+  .home-carousel .slick-next {
+    right: 14px;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    background: #f4f4f4; /* Background color should not be in quotes */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #14539a !important;
+    font-size: 30px;
+  }
+  
+  .slick-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-Carousel img {
+    height: 50vh;
+    width: 100%;
+  }
+  
+  .muddu1, .muddu2, .muddu3 {
+    height: 200px;
+    width: 120px;
+    position: absolute;
+    right: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .muddu1 {
+    top: -200px;
+    animation: example1 4s -2s normal forwards;
+  }
+  
+  .muddu2 {
+    top: -200px;
+    animation: example2 4s -2s normal forwards;
+  }
+  
+  .muddu3 {
+    top: -200px;
+    animation: example3 4s -2s normal forwards;
+  }
+  
+  @keyframes example1 {
+    0% { top: -50px; }
+    25% { top: 25px; }
+    50% { top: 50px; }
+    100% { top: 90px; }
+  }
+  
+  @keyframes example2 {
+    0% { top: -50px; }
+    25% { top: 25px; }
+    50% { top: 50px; }
+    100% { top: 90px; }
+  }
+  
+  @keyframes example3 {
+    0% { top: -150px; }
+    25% { top: 0px; }
+    50% { top: 50px; }
+    100% { top: 90px; }
+  }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 2560px) {
+    .home-carousel .slick-next {
+      right: 15px !important;
+      top: 50%;
+    }
+    
+    .home-carousel .slick-prev {
+      left: 15px !important;
+      top: 50%;
+    }
+  }
+  
+  @media (max-width: 1920px) {
+    .home-carousel .slick-next {
+      right: 15px !important;
+      top: 50%;
+    }
+    
+    .home-carousel .slick-prev {
+      left: 15px !important;
+      top: 50%;
+    }
+  }
+  
+  @media (max-width: 1440px) {
+    .home-carousel .slick-next {
+      right: 10px !important;
+      top: 50%;
+    }
+    
+    .home-carousel .slick-prev {
+      left: 10px !important;
+      top: 50%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .carousel {
+      width: 100%;
+    }
+  
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+    }
+  
+    .home-carousel .slick-next {
+      right: 0px !important;
+      top: 50%;
+    }
+  
+    .home-carousel .slick-prev {
+      left: 0px !important;
+      top: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      width: 100%;
+    }
+  
+    .slick-slide img {
+      height: auto;
+    }
+  
+    .slick-prev:before,
+    .slick-next:before {
+      font-size: 20px;
+    }
+  
+    .home-carousel .slick-next {
+      right: -6px !important;
+      top: 50%;
+    }
+  
+    .home-carousel .slick-prev {
+      left: -6px !important;
+      top: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel {
+      width: 100%;
+      margin-top: 0 !important;
+    }
+  
+    .slick-slide img {
+      height: auto;
+    }
+  }
+  

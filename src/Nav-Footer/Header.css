@@ -1,0 +1,172 @@
+li {
+    list-style-type: none;
+}
+
+.w-11 {
+    width: 23%;
+}
+.username{
+    background-color: #254370;
+    color: white;
+    height: 4rem;
+    width: 9rem;
+    text-align: center;
+    
+}
+
+.logSec {
+    border: solid 1px gray;
+    height: 4rem;
+}
+
+.header {
+    height: 10rem;
+}
+
+.offertext {
+    color: #6f6f6f;
+}
+
+.searchSec {
+    height: 6rem;
+}
+
+.searchbar button {
+    background-color: #254370;
+    transition: #254370 0.7s ease;
+}
+
+.searchbar button:hover {
+    background-color: #F6C947;
+}
+
+.searchbar button i {
+    color: white;
+    font-size: large;
+    transition: white 0.7s ease;
+}
+
+.searchbar button:hover i {
+    color: black;
+}
+
+.carts {
+    width: 9%;
+}
+
+.carts i {
+    font-size: x-large;
+    color: #254370;
+}
+
+.carts i :hover {
+    color: #F6C947;
+}
+
+.search {
+    width: 22rem;
+    padding: 5px;
+}
+
+input.search:focus {
+    outline: none;
+    /* Removes the default focus outline */
+    box-shadow: none;
+    /* Removes any box-shadow that might be creating a border effect */
+}
+
+.searchbtn {
+    width: 17%;
+    border: none;
+    border-radius: 0 9px 9px 0;
+}
+
+
+/* //Navbar css */
+
+
+.dropdown-menu {
+    display: none;
+}
+
+/* Show the dropdown menu on hover */
+.hover-dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    /* Ensure it’s positioned correctly */
+}
+
+/* Optional: Adjust the positioning to avoid overlapping issues */
+.hover-dropdown .dropdown-menu {
+    margin-top: 0.125rem;
+    /* Adjust based on your needs */
+}
+
+.navbar {
+    background-color: #254370 !important;
+    color: white;
+    height: 3.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.num i{
+    color: #F6C947;
+}
+
+/* //dropdown */
+
+.dropbtn {
+    width: 18rem;
+    background-color: #F6C947;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* .dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: opacity 0.5s ease;
+ 
+}
+
+.dropdown-content a {
+    color: black;
+    background-color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 18rem;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
