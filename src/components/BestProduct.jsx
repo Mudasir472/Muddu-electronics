@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { addToCart } from "../Store/Slices/CartSlice";
-import "./catagori.css";
+import "./Catagori.css";
 
 export default function BestProduct() {
     const { items, status, error } = useSelector((state) => state.product);

@@ -1,4 +1,4 @@
-import "./catagori.css"
+import "./Catagori.css"
 export default function SupportCards({icon,title,desc}) {
     return (
         <>

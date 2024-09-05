@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import "./catagori.css";
+import "./Catagori.css";
 import { addToCart, getTotal } from "../Store/Slices/CartSlice";
 
 

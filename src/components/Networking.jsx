@@ -1,4 +1,4 @@
-import "./catagori.css"
+import "./Catagori.css"
 import img1 from '../images/banner-1.webp'
 import img2 from '../images/banner-2.webp'
 import img3 from '../images/banner-3.webp'
